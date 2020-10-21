@@ -1,0 +1,81 @@
+*{
+    margin:0px;
+}
+
+body{
+    background-image: url("food/stock-photo-picnic-lunch-meal-outdoors-beach-food-concept-725658142.jpg");
+    background-attachment: fixed;
+    background-color:#ffffffae;
+    width:100%;
+    height:100%;
+    
+     
+}
+.container{
+    background-color: #ffffffae;
+}
+.title{
+    font-family: 'Indie Flower', cursive;
+    color:#ffa500 ;
+    font-size: 100px;
+    text-shadow: black 3px 3px 3px;
+    text-align: center;
+}
+
+ul{
+    padding-left: 0px;
+    padding-top:20px;
+display:flex;
+justify-content: center;
+
+}
+li{
+margin:5px  20px 5px;
+list-style: none;
+
+
+}
+a{
+    text-decoration: none;
+    color:#ffa500;
+    font-family:  'Indie Flower', cursive;
+    font-size: 30px;
+    text-transform: capitalize;
+    text-shadow: black 2px 2px 2px;
+    font-weight: bolder;
+}
+.card-1{
+    display:inline-block;
+    margin-top:30px;
+    width: 250px;
+    height:300px;
+    background-color:  #ffffffee;
+    text-align:center;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.img1{
+    margin-top:10px;
+    width: 200px;
+    height: 200px;
+}
+div>p{
+
+    color:orange;
+    text-shadow:white 2px 2px 2px;
+    font-size: 20px;
+     font-family:  'Indie Flower', cursive;
+     text-transform: capitalize;
+    
+}
+.button{
+        color:white;
+        background-color:rgb(4, 110, 231) ;
+        font-family:  Arial, Helvetica, sans-serif;
+         text-transform: capitalize;
+         border-radius: 3px;
+         border-style:none;
+         padding:5px;
+         margin-top:10px;
+
+}
